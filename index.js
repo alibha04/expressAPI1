@@ -13,7 +13,7 @@ app.use('/users', userRoutes);
 
 app.get('/', (req, res) => {
     console.log('[GET ROUTE]');
-    res.send('HELLO FROM HOMEPAGE');
+    // res.send('HELLO FROM HOMEPAGE');
 })
 
 app.listen(PORT, () => console.log(`Server running on port: http://localhost:${PORT}`));
