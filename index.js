@@ -12,7 +12,7 @@ app.use('/users', userRoutes);
 
 
 app.get('/', (req, res) => {
-    // console.log('[GET ROUTE]');
+    console.log('[GET ROUTE]');
     res.send('HELLO FROM HOMEPAGE');
 })
 
